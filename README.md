@@ -1,2 +1,2 @@
 # eco
-discord bot on python
+discord bot on pyhton
