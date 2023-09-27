@@ -27,7 +27,7 @@ async def duck(ctx):
 
 
 @bot.command()
-async def экология(ctx):
+async def ecology(ctx):
     egology_name = random.choice(os.listdir("Egology"))
     with open(f'Egology/{egology_name}', 'rb') as f:
         
@@ -37,15 +37,15 @@ async def экология(ctx):
 
 
 @bot.command()
-async def новости(ctx): 
+async def news(ctx): 
      eco = "https://ecoportal.su/news/top.html" 
    
      await ctx.send(eco)   
 
 @bot.command()
-async def Сохраним_природу(ctx): 
-     Save = "https://turclub-pik.ru/blog/chto-ya-mogu-sdelat-dlya-ehkologii-30-sposobov/"
-     Answer = ("lets see how to save our planet!")
+async def Save_our_planet(ctx): 
+     save = "https://turclub-pik.ru/blog/chto-ya-mogu-sdelat-dlya-ehkologii-30-sposobov/"
+     answer = ("lets see how to save our planet!")
      await ctx.send(Save)
      await ctx.send(Answer)
 
